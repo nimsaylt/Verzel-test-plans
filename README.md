@@ -77,15 +77,16 @@ Pré-requisitos:
 Node.js v20 ou superior
 Git instalado
 
-##Passo a passo
-1 - Clonar o repositório:
-git clone [https://github.com/yasminleite1/Verzel-test-plans.git](https://github.com/yasminleite1/Verzel-test-plans.git)
-cd Verzel-test-plans
+### Passo a passo
 
-2 - Acessar a pasta de automação: cd automação
-3 - Instalar as dependências do Node: npm install 
-4 - Instalar o navegador Chromium no Playwright:  npx playwright install chromium
-5 - Executar os testes: npx playwright test
+1. **Clonar o repositório:**
+   git clone [https://github.com/nimsaylt/Verzel-test-plans.git](https://github.com/nimsaylt/Verzel-test-plans.git);
+   cd Verzel-test-plans
+2. **Acessar a pasta de automação:** cd automação
+3. **Instalar as dependências do Node:** npm install
+4. **Instalar o navegador Chromium no Playwright:** npx playwright install chromium
+5. **Executar os testes:** npx playwright test
+
 
 ## Relatórios de Execução
 Após a execução dos testes dentro da pasta automação, o relatório HTML é salvo automaticamente na pasta bug-reports/. Para visualizá-lo de forma interativa no navegador: npx playwright show-report ../bug-reports
