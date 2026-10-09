@@ -99,7 +99,7 @@ A suíte de automação cobre os principais fluxos de regressão e validação d
 | :---: | :--- | :---: | :---: |
 | **CT-01** | Aplicar cupom `BEMVINDO10` reduz 10% do subtotal | Passar | Passing |
 | **CT-06** | Aplicar cupom expirado exibe mensagem "Cupom expirado." | Passar | Passing |
-| **CT-13** | Subtotal exatamente R$ 200,00 deve aplicar Frete Grátis (CA06) | Falhar* | Failing (Bug) |
+| **CT-13** | Subtotal exatamente R$ 200,00 deve aplicar Frete Grátis (CA06) | Falhar* | Bug |
 
 > **Nota sobre o CT-13:** O teste do **CT-13** falha de propósito na suíte para evidenciar o **BUG-003**, onde a loja cobra frete de R$ 19,90 mesmo com o subtotal atingindo o valor exato de R$ 200,00.
 
